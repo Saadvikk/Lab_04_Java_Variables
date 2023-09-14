@@ -51,8 +51,21 @@ public class Main
         doubleModulo = doubleOperandA % doubleOperandB;
         System.out.println("The modulo of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
 
+        int numberKids = 2;
+        boolean isRaining = false;
+        double priceGas = 2.50;
+        int favoriteNumber = 7;
+        double shoeSize = 11.5;
+        String birthMonth = "March";
+        String fullName = "Saadvik Kotagiri";
 
-
+        System.out.println("There are " + numberKids + " in the family.");
+        System.out.println("It would be " + isRaining + " to say that it is raining.");
+        System.out.println("The cost of gas is " + priceGas);
+        System.out.println("My favorite number is " + favoriteNumber);
+        System.out.println("My shoe size is " + shoeSize);
+        System.out.println("My birth month is in " + birthMonth);
+        System.out.println("My full name is " + fullName);
 
     }
 }
